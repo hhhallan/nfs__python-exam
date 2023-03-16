@@ -5,7 +5,7 @@ import os
 
 
 class SystemInfo:
-    # Initialisation de la classe avec les infos
+    # Initialisation de la classe et récupération des infos
     def __init__(self):
         self.system = platform.system() + " " + platform.release()
         self.processor = platform.processor()
@@ -15,6 +15,7 @@ class SystemInfo:
         self.architecture = platform.architecture()[0]
         self.python_version = platform.python_version()
 
+    # Fonction qui convertit les informations en dictionnaire
     def to_dict(self):
         return {
             'system': self.system,
