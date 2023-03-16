@@ -2,6 +2,7 @@ import random
 
 
 class TableauCitations:
+    # Initialisation de la classe avec le tableau de citations
     def __init__(self):
         self.citations = [
             "J'ai les dents du fond qui baignent.",
@@ -20,9 +21,7 @@ class TableauCitations:
             "Tu me remets la p'tite soeur.(Platon)",
         ]
 
-    def ajouter_citation(self, citation):
-        self.citations.append(citation)
-
+    # Affichage d'une citation aléatoire du tableau dans le terminal
     def afficher_citation_aleatoire(self):
         if len(self.citations) > 0:
             citation = random.choice(self.citations)
