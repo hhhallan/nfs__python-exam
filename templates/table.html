@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Informations système</h1>
+<table>
+    <tr>
+        <th>Système d'exploitation</th>
+        <td>{{ system_info.system }}</td>
+    </tr>
+    <tr>
+        <th>Processeur</th>
+        <td>{{ system_info.processor }}</td>
+    </tr>
+    <tr>
+        <th>Utilisateur</th>
+        <td>{{ system_info.username }}</td>
+    </tr>
+    <tr>
+        <th>CPU</th>
+        <td>{{ system_info.cpu_brand }}</td>
+    </tr>
+    <tr>
+        <th>Architecture</th>
+        <td>{{ system_info.architecture }}</td>
+    </tr>
+    <tr>
+        <th>Vesrion de Python</th>
+        <td>{{ system_info.python_version }}</td>
+    </tr>
+</table>
+{% endblock %}
