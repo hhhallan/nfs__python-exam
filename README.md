@@ -15,7 +15,7 @@ Aucune dépendance supplémentaire n'est requise pour cet exercice.
 ## Exercice 2
 
 ### But
-Le but de cet exercice est de créer un script Python qui contient un dictionnaire représentant une personne, avec des attributs comme l'âge, le prénom, le genre, etc., et de retourner ce dictionnaire sous forme d'objet JSON dans le terminal.
+Le but de cet exercice est de créer un script Python qui contient un dictionnaire représentant un animal, avec des attributs comme l'âge, le prénom, la couleur, etc., et de retourner ce dictionnaire sous forme d'objet JSON dans le terminal.
 
 ### Dépendances
 Aucune dépendance supplémentaire n'est requise pour cet exercice.
@@ -24,7 +24,7 @@ Aucune dépendance supplémentaire n'est requise pour cet exercice.
 ## Exercice 3
 
 ### But
-Le but de cet exercice est de récupérer les informations système à l'aide des packages Python `platform`, `cpuinfo`, `socket` et `os`, et d'afficher ces informations dans un template HTML généré avec le moteur de templating Jinja2.
+Le but de cet exercice est de récupérer les informations système à l'aide des packages Python `platform`, `cpuinfo`, `socket` et `os`, et d'afficher ces informations dans un template HTML généré avec le moteur de templating Flask.
 
 ### Dépendances
 
