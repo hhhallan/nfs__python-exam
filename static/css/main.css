@@ -1,0 +1,120 @@
+*, ::after, ::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  background: linear-gradient(135deg,#00C4FF,#9D1BB2);
+  min-height: 100vh;
+  font-family: "Monocraft", sans-serif;
+  -webkit-animation:rainbow .1s infinite;
+-ms-animation:rainbow .5s infinite;
+-o-animation:rainbow .5s infinite;
+animation:rainbow .5s infinite;
+}
+@-webkit-keyframes rainbow {
+0% {background: #ff0000;}
+10% {background: #ff8000;}
+20% {background: #ffff00;}
+30% {background: #80ff00;}
+40% {background: #00ff00;}
+50% {background: #00ff80;}
+60% {background: #00ffff;}
+70% {background: #0080ff;}
+80% {background: #0000ff;}
+90% {background: #8000ff;}
+100% {background: #ff0080;}
+}
+@-ms-keyframes rainbow {
+0% {background: #ff0000;}
+10% {background: #ff8000;}
+20% {background: #ffff00;}
+30% {background: #80ff00;}
+40% {background: #00ff00;}
+50% {background: #00ff80;}
+60% {background: #00ffff;}
+70% {background: #0080ff;}
+80% {background: #0000ff;}
+90% {background: #8000ff;}
+100% {background: #ff0080;}
+}
+@-o-keyframes rainbow {
+0% {background: #ff0000;}
+10% {background: #ff8000;}
+20% {background: #ffff00;}
+30% {background: #80ff00;}
+40% {background: #00ff00;}
+50% {background: #00ff80;}
+60% {background: #00ffff;}
+70% {background: #0080ff;}
+80% {background: #0000ff;}
+90% {background: #8000ff;}
+100% {background: #ff0080;}
+}
+@keyframes rainbow {
+0% {background: #ff0000;}
+10% {background: #ff8000;}
+20% {background: #ffff00;}
+30% {background: #80ff00;}
+40% {background: #00ff00;}
+50% {background: #00ff80;}
+60% {background: #00ffff;}
+70% {background: #0080ff;}
+80% {background: #0000ff;}
+90% {background: #8000ff;}
+100% {background: #ff0080;}
+}
+
+.container-line {
+  overflow: hidden;
+  display: flex;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  transform: translateY(-50%);
+}
+.txt {
+  white-space: nowrap;
+  font-size: 200px;
+  animation: scrollTxt 10s linear infinite;
+}
+
+.t1 {
+  /* color: red; */
+}
+.t2 {
+  /* color: blue; */
+}
+@keyframes scrollTxt {
+  0%{
+    transform: translate(0%, 0);
+  }
+  100% {
+    transform: translate(-100%, 0);
+  }
+}
+
+.container {
+    width: 1250px;
+    margin-inline: auto;
+    padding-top: 80px
+}
+
+h1 {
+    text-align: center;
+}
+
+table {
+    padding-top: 80px;
+    width: 100%;
+}
+
+th {
+    text-align: start;
+    padding: 10px 0;
+}
+
+td {
+    text-align: end;
+}
